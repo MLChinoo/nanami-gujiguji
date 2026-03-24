@@ -1,15 +1,15 @@
 // src/config.ts
 
 export const IMAGE_URLS = [
-  '/assets/images/normal_2-歯ギター_歯ギターあんじゅ.png',
-  '/assets/images/normal-main_n.png',
-  '/assets/images/normal-キャラ_杏珠.png',
-  '/assets/images/normal-グループ 1_あんじゅ_あんじゅ.png',
-  '/assets/images/normal-杏珠_目_２燃えてくる1.png',
-  '/assets/images/normal-背景_アイコン_iconあんじゅ.png',
-  '/assets/images/normal-背景_ステッカー_stkあんじゅ.png',
-  '/assets/images/normal-背景_肩書_肩書あんじゅset_肩書あんじゅ.png',
-  '/assets/images/ciallo.png',
+  '/assets/images/345376684@2x.png',
+  '/assets/images/345376686@2x.png',
+  '/assets/images/345376688@2x.png',
+  '/assets/images/345376690@2x.png',
+  '/assets/images/345376691@2x.png',
+  '/assets/images/345376696@2x.png',
+  '/assets/images/345376706@2x.png',
+  '/assets/images/345376707@2x.png',
+  '/assets/images/345376709@2x.png',
 ];
 
 export const MAX_PARTICLES = 10000;
