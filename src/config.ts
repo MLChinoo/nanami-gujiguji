@@ -1,15 +1,15 @@
 // src/config.ts
 
 export const IMAGE_URLS = [
-  '/assets/images/345376684@2x.png',
-  '/assets/images/345376686@2x.png',
-  '/assets/images/345376688@2x.png',
-  '/assets/images/345376690@2x.png',
-  '/assets/images/345376691@2x.png',
-  '/assets/images/345376696@2x.png',
-  '/assets/images/345376706@2x.png',
-  '/assets/images/345376707@2x.png',
-  '/assets/images/345376709@2x.png',
+  './assets/images/345376684@2x.png',
+  './assets/images/345376686@2x.png',
+  './assets/images/345376688@2x.png',
+  './assets/images/345376690@2x.png',
+  './assets/images/345376691@2x.png',
+  './assets/images/345376696@2x.png',
+  './assets/images/345376706@2x.png',
+  './assets/images/345376707@2x.png',
+  './assets/images/345376709@2x.png',
 ];
 
 export const MAX_PARTICLES = 10000;
@@ -24,6 +24,6 @@ export const DYNAMIC_PARTICLE_STRIDE = 24;
 export const STATIC_PARTICLE_STRIDE = 32;
 
 // 音频配置
-export const VOICE_PATH_TEMPLATE = '/assets/voices/random_{index}.ogg'; // 音频路径模板
+export const VOICE_PATH_TEMPLATE = './assets/voices/random_{index}.ogg'; // 音频路径模板
 export const VOICE_TOTAL_COUNT = 128; // 音频总数（根据实际情况调整）
 export const VOICE_INITIAL_LOAD = 10; // 初始加载数量

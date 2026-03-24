@@ -328,7 +328,7 @@ export class WebGPURenderer {
         this.device.queue.writeBuffer(this.staticBuffer, this.particleCount * STATIC_PARTICLE_STRIDE, staticData.buffer);
 
         this.particleCount++;
-        this.button.textContent = `更多珠珠 (${this.particleCount})`;
+        this.button.textContent = `更多七海 (${this.particleCount})`;
       } catch (error) {
         console.error('Failed to add particle:', error);
       }
